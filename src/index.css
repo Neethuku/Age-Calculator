@@ -1,0 +1,39 @@
+body{
+  background-color: #765195;
+  }
+  .card{
+    background: rgb(2,0,36);
+    background: rgb(102,74,128);
+    background: linear-gradient(90deg, rgba(102,74,128,1) 0%, rgba(118,81,149,1) 0%, rgba(91,53,120,1) 0%, rgb(184, 127, 234) 100%, rgba(142,59,183,1) 100%);  border: none !important;
+  
+  }
+  .calculate-btn{
+    border-color: #b389d9;
+    border-width: 1px solid;
+  background: #955bcc !important;
+  }
+  .calculate-btn:focus,.calculate-btn:active,.reset-btn:active,
+  .reset-btn:focus {
+    outline: none  !important ;      
+    box-shadow: none !important ; 
+    border-color: #b389d9 !important;       
+  }
+  
+  
+  
+  Button:hover{
+    background: #673e8d !important;
+  
+  }
+  .reset-btn{
+    color: white;
+    border-color: #b389d9;
+    border-width: 1px solid;
+    background-color: #72439d ;
+  }
+  .reset-btn:hover,
+  .calculate-btn:hover{
+    border-width: 1px solid;
+    border-color: #b389d9;
+    background: #673e8d !important;
+  }
